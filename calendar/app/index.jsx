@@ -4,7 +4,7 @@ import { Text, View, Image, StyleSheet, Platform } from 'react-native';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 
 
-export default function HomeScreen() {
+const HomeScreen = () => {
   return (
     
     <View>
@@ -24,9 +24,6 @@ export default function HomeScreen() {
 
       <View style={styles.weekly}>
       </View>
-
-
-
 
 
 
