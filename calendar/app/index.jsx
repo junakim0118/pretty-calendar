@@ -5,11 +5,15 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 
 
 export default function HomeScreen() {
+  // Get the current date and format it
+  const currentDate = new Date();
+  const formattedDate = format(currentDate, 'MMMM dd, yyyy');
   return (
+    
     <View>
         <View style = {styles.reactLogo}>
-          <Text>
-            June 14, 2024
+        <Text style={styles.dateText}>
+        {formattedDate}
           
           <Text style = {styles.percentage}>
             100%
