@@ -4,7 +4,7 @@ import { Text, View, Image, StyleSheet, Platform } from 'react-native';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 
 
-export default function HomeScreen() {
+const HomeScreen = () => {
   return (
     <View>
         <View style = {styles.reactLogo}>
@@ -80,3 +80,5 @@ const styles = StyleSheet.create({
   }
 
 });
+
+export default HomeScreen
