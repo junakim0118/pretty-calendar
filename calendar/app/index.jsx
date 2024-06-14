@@ -5,9 +5,6 @@ import ParallaxScrollView from '@/components/ParallaxScrollView';
 
 
 export default function HomeScreen() {
-  // Get the current date and format it
-  const currentDate = new Date();
-  const formattedDate = format(currentDate, 'MMMM dd, yyyy');
   return (
     
     <View>
@@ -84,3 +81,5 @@ const styles = StyleSheet.create({
   }
 
 });
+
+export default HomeScreen
